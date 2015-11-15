@@ -1,7 +1,7 @@
 # POS and NER Tagger for tweets
 ###TASK: Named entity recognition (NER) and Part of speech (POS) tagging for tweets
 
-More details about training and testing can be found on this link: http://www.cse.iitd.ernet.in/~parags/teaching/col776/assignments/ass3/ass3-b.pdf 
+More details about training and testing can be found on this link: http://www.cse.iitd.ernet.in/~parags/teaching/col776/assignments/ass3/ass3-b.pdf <br>
 Code has 2 trained models present corresponding to NER and POS tasks. They are MODEL_ner, MODEL_pos
 
 ###HOW TO RUN:
