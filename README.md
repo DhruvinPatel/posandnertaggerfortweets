@@ -6,9 +6,9 @@ Code has 2 trained models present corresponding to NER and POS tasks. They are M
 
 ###HOW TO RUN:
 ```bash
-./compile.sh <br>
-./runpos.sh pos_inputfile pos_outputfile <br>
-./runner.sh ner_inputfile ner_outputfile <br>
+./compile.sh
+./runpos.sh pos_inputfile pos_outputfile
+./runner.sh ner_inputfile ner_outputfile
 ```
 
 Note: Before running above commands you should have MALLET_INC defined appropriately (i.e. MALLET build directory) and MALLET installed.
