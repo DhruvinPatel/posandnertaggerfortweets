@@ -16,8 +16,8 @@ Note: Before running above commands you should have MALLET_INC defined appropria
 
 ###Files present in the present working directory:
 * compile.sh
-* runpos.sh
-* runner.sh
+* runpos.sh (to run pos tagger)
+* runner.sh (to run ner tagger)
 * Writeup.pdf (describes features used in Model building)
 * posinputfile (or called the testfile)
 * pos_goldfile (contains gold labels)
