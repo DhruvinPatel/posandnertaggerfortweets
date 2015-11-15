@@ -1,1 +1,3 @@
-chmod +x ./run.sh
+chmod +x ./runpos.sh
+chmod +x ./runner.sh
+

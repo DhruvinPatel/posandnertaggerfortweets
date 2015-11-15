@@ -1,19 +1,21 @@
-# posandnertaggingfortweets
-TASK: Named entity recognition (NER) and Part of speech (POS) tagging for tweets
+# POS and NER Tagger for tweets
+###TASK: Named entity recognition (NER) and Part of speech (POS) tagging for tweets
 
 More details about training and testing can be found on this link: http://www.cse.iitd.ernet.in/~parags/teaching/col776/assignments/ass3/ass3-b.pdf 
 Code has 2 trained models present corresponding to NER and POS tasks. They are MODEL_ner, MODEL_pos
 
-HOW TO RUN:
+###HOW TO RUN:
 ./compile.sh
-./run.sh pos_inputfile pos_outputfile ner_outputfile ner_outputfile
+./runpos.sh pos_inputfile pos_outputfile
+./runner.sh ner_inputfile ner_outputfile
 
 Note: Before running above commands you should have MALLET_INC defined appropriately (i.e. MALLET build directory) and MALLET installed.
 
 
-Code has in the present working directory:
+###Code has in the present working directory:
 compile.sh
-run.sh
+runpos.sh
+runner.sh
 Writeup.pdf (describes features used in Model building)
 posinputfile (or called the testfile)
 pos_goldfile (contains gold labels)
@@ -36,12 +38,18 @@ nerdatalist (ner-tagged dataset)
 posdatalist (pos-tagged dataset)
 
 
-Evaluation:
+###Evaluation:
 
 To evaluate the model by compute Macro F-measure using Fscore_MODEL.py. Following are the commands to use the script:
 python Fscore_MODEL.py MODEL_outputfile MODEL_goldfile
 
 (replace MODEL with either pos / ner)
+
+
+
+
+
+
 
 
 
